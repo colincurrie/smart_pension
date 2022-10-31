@@ -39,12 +39,12 @@ describe Parser do
 
     it 'puts the most unique page first' do
       # expect the most unique page first
-      expect(counts.first).to eq(counts.min)
+      expect(counts.first).to eq(counts.max)
     end
 
     it 'should put the least unique page last' do
       # expect the least unique page last
-      expect(counts.first).to eq(counts.max)
+      expect(counts.last).to eq(counts.min)
     end
   end
 end
