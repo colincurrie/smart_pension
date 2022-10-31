@@ -15,7 +15,7 @@ describe Parser do
   end
 
   it 'fails if no log is provided' do 
-    expect { Parser.new('shit.log') }.to raise_error(ArgumentError)
+    expect { Parser.new('invalid.log') }.to raise_error(ArgumentError)
   end
 
   describe '#most_page_views' do
