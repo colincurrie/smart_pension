@@ -3,7 +3,7 @@ class Parser
   def initialize(log)
     # It must take a log file as an argument
     unless log && File.exists?(log)
-      raise ArgumentError('You must specify a valid logfile')
+      raise ArgumentError.new('You must specify a valid logfile')
     end
 
     @logs = File.readlines(log)

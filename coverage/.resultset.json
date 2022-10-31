@@ -1,0 +1,33 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/colincurrie/Downloads/Smart_Pension_-_Take_Home_Ruby_test (4)/ruby_app/parser.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          6,
+          1,
+          null,
+          null,
+          5,
+          null,
+          null,
+          1,
+          null,
+          1002,
+          24,
+          null,
+          null,
+          1,
+          null,
+          798,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1667233827
+  }
+}

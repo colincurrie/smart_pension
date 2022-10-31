@@ -1,6 +1,9 @@
 require 'pry'
+require 'simplecov'
+SimpleCov.start
 
 require_relative '../parser.rb'
+
 
 describe Parser do
 
@@ -12,7 +15,7 @@ describe Parser do
   end
 
   it 'fails if no log is provided' do 
-    expect { Parser.new }.to raise_error(ArgumentError)
+    expect { Parser.new('shit.log') }.to raise_error(ArgumentError)
   end
 
   describe '#most_page_views' do
